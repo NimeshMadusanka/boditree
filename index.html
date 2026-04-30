@@ -26,58 +26,78 @@
 <body class="home-3 bg-secondarylight">
 
   <!-- Header Section Starts -->
-  <Header class="position-relative z-3">
-    <div class="header-nav header-nav-menu" id="header-nav-menu">
-      <div class="container">
-        <div class="header-nav-inner mt-xl-2 px-3 py-2 rounded-5" style="background-color: white;">
-          <div class="row gx-xl-5 align-items-center justify-content-between">
-            <div class="col-xl-2 col-md-3 col-6 order-1">
-              <div class="header-logo">
-                <a href="index.html"><img src="image/logo.jpeg" alt="logo" style="max-width: 100px;"></a>
-              </div>
-            </div>
-            <div class="col-xl-8 col-0 order-3 order-xl-2">
-              <div class="header-nav">
-                <div class="navbar-collapse " id="bs-example-navbar-collapse-1">
-                  <ul class="navbar-nav flex-row align-items-center justify-content-center" id="responsive-menu">
-                    <li class="nav-item dropdown">
-                      <a class="nav-link  text fw-medium active text-uppercase" href="#" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        About
-                      </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link  text fw-medium active text-uppercase" href="#" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Governance
-                      </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link  text fw-medium active text-uppercase" href="#" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Publications
-                      </a>
-                    </li><li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle text fw-medium active text-uppercase" href="#" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Traditions
-                      </a>   
-                      </li>                
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-2 col-md-4 col-0  order-2 order-xl-3">
-              <div class="header-icons d-none d-xl-block">
-                <a href="" class="btn1">Events<i class="fa fa-long-arrow-right d-none d-xxl-inline-block" aria-hidden="true"></i></a>
-              </div>
-            </div>
+  <!-- Header Section Starts -->
+<Header class="position-relative z-3">
+  <div class="header-nav header-nav-menu new-navbar" id="header-nav-menu">
+    <div class="header-nav-inner-new" style="background-color: white;">
+      <div class="navbar-new-container">
+        <!-- Left: Site Name -->
+        <div class="navbar-left">
+          <span class="site-name">Under the Bodhi Tree</span>
+        </div>
+
+        <!-- Center: Logo Circle -->
+        <div class="navbar-center">
+          <div class="logo-circle-wrapper">
+            <a href="index.html" class="header-logo-center">
+              <img src="image/logo.jpeg" alt="logo">
+            </a>
           </div>
-          <div id="slicknav-mobile"></div>
+        </div>
+
+        <!-- Right: Icons and Menu -->
+        <div class="navbar-right">
+          <div class="navbar-icons-group">
+            <!-- Search Icon -->
+            <a href="#" class="navbar-icon-link search-icon">
+              <i class="fa fa-search"></i>
+            </a>
+
+            <!-- Hamburger Menu Button -->
+            <button class="hamburger-btn" id="hamburger-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
         </div>
       </div>
+
+      <!-- Mobile Navigation Menu -->
+      <div class="mobile-nav-menu" id="mobile-nav-menu">
+        <ul class="mobile-nav-list" id="responsive-menu">
+          <li class="nav-item dropdown">
+            <a class="nav-link text fw-medium text-uppercase" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text fw-medium text-uppercase" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Governance
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text fw-medium text-uppercase" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Publications
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text fw-medium text-uppercase" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Traditions
+            </a>   
+          </li>
+        </ul>
+      </div>
+
+      <div id="slicknav-mobile"></div>
     </div>
-  </Header>
+  </div>
+</Header>
+<!-- Header Section Ends -->
   <!-- Header Section Ends -->
 
   <!-- Banner Section Starts -->
