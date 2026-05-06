@@ -243,23 +243,23 @@
   }
 
   /* Gallery Slideshow Functions */
-  let galleryIndex = 1;
+  window.galleryIndex = 1;
 
-  function changeGallerySlide(n) {
-    showGallerySlide(galleryIndex += n);
+  window.changeGallerySlide = function(n) {
+    window.showGallerySlide(window.galleryIndex += n);
   }
 
-  function currentGallerySlide(n) {
-    showGallerySlide(galleryIndex = n);
+  window.currentGallerySlide = function(n) {
+    window.showGallerySlide(window.galleryIndex = n);
   }
 
-  function showGallerySlide(n) {
+  window.showGallerySlide = function(n) {
     const gallerySlides = document.querySelectorAll('.gallery-container .gallery-item');
     const galleryDots = document.querySelectorAll('.gallery-indicators .gallery-dot');
     const galleryContents = document.querySelectorAll('.gallery-slide-content');
     
-    if (n > gallerySlides.length) galleryIndex = 1;
-    if (n < 1) galleryIndex = gallerySlides.length;
+    if (n > gallerySlides.length) window.galleryIndex = 1;
+    if (n < 1) window.galleryIndex = gallerySlides.length;
     
     gallerySlides.forEach(slide => {
       slide.style.display = 'none';
@@ -274,23 +274,23 @@
       content.classList.remove('gallery-active');
     });
     
-    if (gallerySlides[galleryIndex - 1]) {
-      gallerySlides[galleryIndex - 1].style.display = 'block';
-      gallerySlides[galleryIndex - 1].classList.add('gallery-fade');
+    if (gallerySlides[window.galleryIndex - 1]) {
+      gallerySlides[window.galleryIndex - 1].style.display = 'block';
+      gallerySlides[window.galleryIndex - 1].classList.add('gallery-fade');
     }
     
-    if (galleryDots[galleryIndex - 1]) {
-      galleryDots[galleryIndex - 1].classList.add('gallery-active');
+    if (galleryDots[window.galleryIndex - 1]) {
+      galleryDots[window.galleryIndex - 1].classList.add('gallery-active');
     }
 
-    if (galleryContents[galleryIndex - 1]) {
-      galleryContents[galleryIndex - 1].classList.add('gallery-active');
+    if (galleryContents[window.galleryIndex - 1]) {
+      galleryContents[window.galleryIndex - 1].classList.add('gallery-active');
     }
   }
 
   // Initialize gallery slideshow on page load
   document.addEventListener('DOMContentLoaded', function() {
-    showGallerySlide(galleryIndex);
+    window.showGallerySlide(window.galleryIndex);
   });
 
 })(jQuery);

@@ -67,26 +67,32 @@
       <div class="mobile-nav-menu" id="mobile-nav-menu">
         <ul class="mobile-nav-list" id="responsive-menu">
           <li class="nav-item dropdown">
-            <a class="nav-link text fw-medium text-uppercase" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link text fw-medium text-uppercase" href="index.html">
+              Home
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text fw-medium text-uppercase" href="about.html">
               About
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link text fw-medium text-uppercase" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link text fw-medium text-uppercase" href="projects.html">
+              Projects
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text fw-medium text-uppercase" href="governance.html">
               Governance
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link text fw-medium text-uppercase" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link text fw-medium text-uppercase" href="publications.html">
               Publications
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link text fw-medium text-uppercase" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link text fw-medium text-uppercase" href="traditions.html">
               Traditions
             </a>   
           </li>
@@ -341,42 +347,58 @@
   
 
   <!-- Footer Section Starts -->
-  <footer class="pt-6 bg-primary pb-0 rounded-top-5" style="background-image: none;">
+  <footer class="pt-5 pb-5 bg-primary" style="background-image: none;">
     <div class="container">
       <div class="footer-inner white">
-        <div class="footer-top w-lg-75 text-center m-auto mb-7">
-          <h1 class="white mb-3 w-xxl-50 text-center m-auto"></h1>
-          <p class="mb-3" style="color: #aea46f;">As we are a non-profit, your contributions help us maintain this space</p>
-          <a href="" class="btn1">Donate Link<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-        </div>
-        <div class="footer-middle mb-4 pb-4 border-bottom border-white border-opacity-50">
-          <div class="row align-items-center gy-4 justify-content-center">
-            <div class="col-lg-4 order-2 order-lg-1">
-              <div class="footer-socials">
-                <ul class="d-flex gap-2 justify-content-center justify-content-lg-start">
-                  <li><a href="#"><i class="fa fa-facebook bg-sagegreen bg-opacity-25 rounded-circle text-center" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-youtube bg-sagegreen bg-opacity-25 rounded-circle text-center" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-instagram bg-sagegreen bg-opacity-25 rounded-circle text-center" aria-hidden="true"></i></a></li>
-                </ul>
-              </div>
-            </div>  
-            <div class="col-lg-4 col-md-8 order-1 order-lg-2">
-              <div class="footer-logo text-center">
-                <a href=""><img src="image/logobg.png" alt="logo" class="w-50 m-auto"></a>
+        <!-- Footer Main Content -->
+        <div class="footer-top mb-5 pb-5 border-bottom" style="border-color: #c4b8a8;">
+          <div class="row align-items-start gy-5">
+            <!-- Left: Logo -->
+            <div class="col-lg-2 col-md-3 text-center">
+              <div class="footer-logo">
+                <a href="index.html"><img src="image/logobg.png" alt="Bodhi Tree Logo" style="width: 100px;"></a>
               </div>
             </div>
-            <div class="col-lg-4 order-3">
-              <ul class="d-flex gap-3 justify-content-center justify-content-lg-end flex-wrap" style="color: #aea46f;">
-                <li><a href="" style="color: #aea46f;">Home</a></li>
-                <li><a href="" style="color: #aea46f;">About the Bodhi Tree</a></li>
-                <!-- <li><a href="" style="color: #aea46f;">Governance</a></li>
-                <li><a href="" style="color: #aea46f;">Publications</a></li> -->
-              </ul>
+
+            <!-- Center: Navigation Links -->
+            <div class="col-lg-3 col-md-4" style="margin-left: 200px;">
+              <div class="footer-nav">
+                <div class="row">
+                  <div class="col-6">
+                    <ul class="list-unstyled">
+                      <li class="mb-2"><a href="index.html" style="color: #a89968; text-decoration: none;">Home</a></li>
+                      <li class="mb-2"><a href="about.html" style="color: #a89968; text-decoration: none;">About</a></li>
+                      <li class="mb-2"><a href="projects.html" style="color: #a89968; text-decoration: none;">Projects</a></li>
+                      <li class="mb-2"><a href="governance.html" style="color: #a89968; text-decoration: none;">Governance</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6">
+                    <ul class="list-unstyled">
+                      <li class="mb-2"><a href="publications.html" style="color: #a89968; text-decoration: none;">Publications</a></li>
+                      <li class="mb-2"><a href="traditions.html" style="color: #a89968; text-decoration: none;">Traditions</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Tagline -->
+            <div class="col-lg-3 col-md-4 d-flex align-items-center" style="margin-left: 100px;">
+              <p style="color: #a89968; font-weight: 500; font-size: 16px; line-height: 1.6;">
+                As we are a non-profit,<br>your contributions helps us<br>alot to maintain this space
+              </p>
             </div>
           </div>
         </div>
-        <div class="footer-bottom text-center pb-4">
-          <p class="mb-0" style="color: #aea46f;">© 2026 Under the Bodhi Tree. All rights reserved</p>
+
+        <!-- Footer Bottom Links -->
+        <div class="footer-bottom text-center">
+          <ul class="list-unstyled d-flex gap-3 justify-content-center flex-wrap">
+            <li><a href="#" style="color: #a89968; text-decoration: none; font-size: 12px;">FAQ</a></li>
+            <li><a href="#" style="color: #a89968; text-decoration: none; font-size: 12px;">LEGAL NOTES</a></li>
+            <li><a href="#" style="color: #a89968; text-decoration: none; font-size: 12px;">COOKIE POLICY</a></li>
+            <li><a href="#" style="color: #a89968; text-decoration: none; font-size: 12px;">PRIVACY POLICY</a></li>
+          </ul>
         </div>
       </div>
     </div>
