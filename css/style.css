@@ -1602,10 +1602,10 @@ header .header-icons ul li i {
 
 .gallery-nav-buttons-container {
   position: absolute;
-  bottom: -50px;
-  right: 40px;
+  bottom: 20px;
+  right: 20px;
   display: flex;
-  gap: 15px;
+  gap: 10px;
   z-index: 10;
 }
 
@@ -1646,15 +1646,15 @@ header .header-icons ul li i {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.5);
+  background: #aea46f;
   cursor: pointer;
   transition: all 0.3s ease;
   border: 2px solid transparent;
 }
 
 .gallery-dot.gallery-active {
-  background: white;
-  border-color: #906E49;
+  background: #906E49;
+  border-color: #aea46f;
 }
 
 @media (max-width: 992px) {
@@ -1837,6 +1837,52 @@ footer .footer-middle .footer-socials li a i:hover {
   background-color: #906E49 !important;
   color: #ffffff;
   transition: all 0.3s ease;
+}
+
+/* Footer Custom Styling */
+footer .footer-nav a {
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+footer .footer-nav a:hover {
+  color: #ffffff !important;
+  padding-left: 8px;
+  text-decoration: underline;
+  text-decoration-color: #906E49;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+
+footer .footer-logo a {
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+footer .footer-logo a:hover {
+  transform: scale(1.08);
+}
+
+footer .footer-bottom a {
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+footer .footer-bottom a:hover {
+  color: #ffffff !important;
+  text-decoration: underline;
+  text-decoration-color: #906E49;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+footer .footer-inner p {
+  font-size: 17px;
 }
 
 /* ========================================= */
