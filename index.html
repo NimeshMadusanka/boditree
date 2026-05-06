@@ -26,58 +26,84 @@
 <body class="home-3 bg-secondarylight">
 
   <!-- Header Section Starts -->
-  <Header class="position-relative z-3">
-    <div class="header-nav header-nav-menu" id="header-nav-menu">
-      <div class="container">
-        <div class="header-nav-inner mt-xl-2 px-3 py-2 rounded-5" style="background-color: white;">
-          <div class="row gx-xl-5 align-items-center justify-content-between">
-            <div class="col-xl-2 col-md-3 col-6 order-1">
-              <div class="header-logo">
-                <a href="index.html"><img src="image/logo.jpeg" alt="logo" style="max-width: 100px;"></a>
-              </div>
-            </div>
-            <div class="col-xl-8 col-0 order-3 order-xl-2">
-              <div class="header-nav">
-                <div class="navbar-collapse " id="bs-example-navbar-collapse-1">
-                  <ul class="navbar-nav flex-row align-items-center justify-content-center" id="responsive-menu">
-                    <li class="nav-item dropdown">
-                      <a class="nav-link  text fw-medium active text-uppercase" href="#" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        About
-                      </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link  text fw-medium active text-uppercase" href="#" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Governance
-                      </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link  text fw-medium active text-uppercase" href="#" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Publications
-                      </a>
-                    </li><li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle text fw-medium active text-uppercase" href="#" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Traditions
-                      </a>   
-                      </li>                
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-2 col-md-4 col-0  order-2 order-xl-3">
-              <div class="header-icons d-none d-xl-block">
-                <a href="" class="btn1">Events<i class="fa fa-long-arrow-right d-none d-xxl-inline-block" aria-hidden="true"></i></a>
-              </div>
-            </div>
+  <!-- Header Section Starts -->
+<Header class="position-relative z-3">
+  <div class="header-nav header-nav-menu new-navbar" id="header-nav-menu">
+    <div class="header-nav-inner-new" style="background-color: white;">
+      <div class="navbar-new-container">
+        <!-- Left: Site Name -->
+        <div class="navbar-left">
+          <span class="site-name">Under the Bodhi Tree</span>
+        </div>
+
+        <!-- Center: Logo Circle -->
+        <div class="navbar-center">
+          <div class="logo-circle-wrapper">
+            <a href="index.html" class="header-logo-center">
+              <img src="image/logo.jpeg" alt="logo">
+            </a>
           </div>
-          <div id="slicknav-mobile"></div>
+        </div>
+
+        <!-- Right: Icons and Menu -->
+        <div class="navbar-right">
+          <div class="navbar-icons-group">
+            <!-- Search Icon -->
+            <a href="#" class="navbar-icon-link search-icon">
+              <i class="fa fa-search"></i>
+            </a>
+
+            <!-- Hamburger Menu Button -->
+            <button class="hamburger-btn" id="hamburger-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
         </div>
       </div>
+
+      <!-- Mobile Navigation Menu -->
+      <div class="mobile-nav-menu" id="mobile-nav-menu">
+        <ul class="mobile-nav-list" id="responsive-menu">
+          <li class="nav-item dropdown">
+            <a class="nav-link text fw-medium text-uppercase" href="index.html">
+              Home
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text fw-medium text-uppercase" href="about.html">
+              About
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text fw-medium text-uppercase" href="projects.html">
+              Projects
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text fw-medium text-uppercase" href="governance.html">
+              Governance
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text fw-medium text-uppercase" href="publications.html">
+              Publications
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text fw-medium text-uppercase" href="traditions.html">
+              Traditions
+            </a>   
+          </li>
+        </ul>
+      </div>
+
+      <div id="slicknav-mobile"></div>
     </div>
-  </Header>
+  </div>
+</Header>
+<!-- Header Section Ends -->
   <!-- Header Section Ends -->
 
   <!-- Banner Section Starts -->
@@ -116,499 +142,95 @@
         <div class="row align-items-center gx-md-5 gy-5">
           <div class="col-xl-12 col-md-6">
             <div class="about-left">
-              <!-- <h6 class="secondary mb-0">About Us</h6> -->
+             
               <h4 class="mb-3" style="color: #aea46f; text-align: center;">Bodhi Sevana ( ෙබ ෙසවන) , meaning “Under the Bodhi Tree,” represents a space of cultivation — open to all, without distinction, who seek to learn, refine, and move toward meaningful life. Like the shade of the Bodhi Tree, it offers a setting that is steady and supportive, where knowledge, skill, and practice are developed with care and discipline. At its core, the initiative is grounded in the understanding that heritage must be actively preserved and reinforced through living practice.
                 Through this, it supports the continuity of traditional knowledge systems while creating conditions that are conducive to both cultural and personal development, and to the further enrichment of the Buddha Sāsana.</h4>
-              <!-- <p class="mb-0">Our philosophy is simple — timeless elegance and exceptional detail. Each interior we design is curated with premium materials, bespoke elements, and refined aesthetics tailored to your lifestyle.</p> -->
-            </div>
-          </div>
-          <!-- <div class="col-xl-4 col-md-6">
-            <div class="about-center position-relative">
-              <img src="image/interior-design-of-stylish-living-room-2022-12-07-04-16-53-utc.jpg" alt="about image" class="rounded-3">
-              <div class="exp-box p-3 text-center rounded-3 glass position-absolute" style="bottom: 20px; right: 20px;">
-                <span class="h1 primary teko lh-sm">10+</span>
-                <span class="d-block primary fw-bold teko h6">Years of experience</span>
               </div>
-            </div>
           </div>
-          <div class="col-xl-5">
-            <div class="about-right">
-              <p class="mb-4">We are a passionate interior design studio dedicated to transforming everyday spaces into meaningful experiences. With a balance of creativity, functionality, and craftsmanship, we design environments that reflect your lifestyle and vision.</p>
-              <ul class="d-flex rounded-4 justify-content-between flex-wrap gap-3 mb-4">
-                <li class="">
-                  <span class="h2 primary teko mb-0 lh-sm">542+</span>
-                  <span class="teko h6 d-block mb-0 secondary">Projects Completed</span>
-                </li>
-                <li class="">
-                  <span class="h2 primary teko mb-0 lh-sm">201+</span>
-                  <span class="teko h6 d-block mb-0 secondary">Delight Client</span>
-                </li>
-                <li class="">
-                  <span class="h2 primary teko mb-0 lh-sm">50+</span>
-                  <span class="teko h6 d-block mb-0 secondary">Award Achivement</span>
-                </li>
-              </ul>
-              <a href="about.html" class="btn1">Know More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-            </div>
-          </div> -->
+          
         </div>
       </div>
     </div>
   </section>
   <!-- About Us Section Ends -->
 
-  <!-- Services Section Starts -->
-  <!-- <section class="services bg-white rounded-5">
+  <!-- Gallery Image Slideshow Section Starts -->
+  <section class="gallery-section bg-white rounded-5 py-5">
     <div class="container-fluid">
-      <div class="services-inner">
-        <div class="services-title mb-5 text-center text-lg-start">
-          <div class="container">
-            <div class="row align-items-center justify-content-between gy-3">
-              <div class="col-lg-4">
-                <div class="services-title-left">
-                  <h6 class="secondary mb-0">Services</h6>
-                  <h2 class="mb-0">Transforming Spaces with Style</h2>
-                </div>
+      <div class="gallery-wrapper">
+        <div class="row g-0 align-items-stretch">
+          <!-- Left side: Image -->
+          <div class="col-lg-6 gallery-image-column">
+            <div class="gallery-container">
+              <div class="gallery-item" style="display: block;">
+                <img src="image/img1.jpg" alt="Gallery 1" class="gallery-image">
               </div>
-              <div class="col-lg-6">
-                <div class="services-title-right text-lg-start">
-                  <p class="mb-3">End-to-end interior design solutions tailored to your space and lifestyle. From concept to completion — we design every detail.</p>
-                  <a href="service-list.html" class="btn1">View ALl Services<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                </div>
+              <div class="gallery-item">
+                <img src="image/img3.jpg" alt="Gallery 2" class="gallery-image">
+              </div>
+              <div class="gallery-item">
+                <img src="image/img2.jpg" alt="Gallery 3" class="gallery-image">
               </div>
             </div>
           </div>
-        </div>
-        <div class="services-body">
-          <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 row-cols-xxl-5 gy-4 justify-content-center">
-            <div class="col">
-              <div class="service-box position-relative">
-                <div class="overlay rounded-4"></div>
-                <div class="services-image">
-                  <img src="image/pexels-vince-2227832.jpg" alt="resitental design" class="rounded-4">
-                </div>
-                <div class="services-info position-relative p-3 position-absolute bottom-0 w-100 rounded-top-0 white">
-                  <h4 class="mb-1"><a href="service-detail.html">Residential Interior Design</a></h4>
-                  <p class="mb-0">Elegant and functional designs for homes, apartments, and villas.</p>
-                </div>
-                <a href="service-detail.html" class="bg-secondary arrow rounded-circle position-absolute p-0" style="top: 15px; right: 15px;">
-                  <i class="fa fa-long-arrow-right m-0 text-center " aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-            <div class="col">
-              <div class="service-box position-relative">
-                <div class="overlay rounded-4"></div>
-                <div class="services-image">
-                  <img src="image/pexels-cottonbro-5371484.jpg" alt="resitental design" class="rounded-4">
-                </div>
-                <div class="services-info position-relative p-3 position-absolute bottom-0 w-100 rounded-top-0 white">
-                  <h4 class="mb-1"><a href="service-detail.html">Commercial Interior Design</a></h4>
-                  <p class="mb-0">Inspiring, branded environments for offices, retail, hospitality, and more.</p>
-                </div>
-                <a href="service-detail.html" class="bg-secondary arrow rounded-circle position-absolute p-0" style="top: 15px; right: 15px;">
-                  <i class="fa fa-long-arrow-right m-0 text-center " aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-            <div class="col">
-              <div class="service-box position-relative">
-                <div class="overlay rounded-4"></div>
-                <div class="services-image">
-                  <img src="image/pexels-orlovamaria-4913367.jpg" alt="resitental design" class="rounded-4">
-                </div>
-                <div class="services-info position-relative p-3 position-absolute bottom-0 w-100 rounded-top-0 white">
-                  <h4 class="mb-1"><a href="service-detail.html">Space Planning & Layout</a></h4>
-                  <p class="mb-0">Smart layouts to maximize comfort, flow, and usability.</p>
-                </div>
-                <a href="service-detail.html" class="bg-secondary arrow rounded-circle position-absolute p-0" style="top: 15px; right: 15px;">
-                  <i class="fa fa-long-arrow-right m-0 text-center " aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-            <div class="col">
-              <div class="service-box position-relative">
-                <div class="overlay rounded-4"></div>
-                <div class="services-image">
-                  <img src="image/pexels-keeganjchecks-10117728.jpg" alt="resitental design" class="rounded-4">
-                </div>
-                <div class="services-info position-relative p-3 position-absolute bottom-0 w-100 rounded-top-0 white">
-                  <h4 class="mb-1"><a href="service-detail.html">Modular Kitchen Design</a></h4>
-                  <p class="mb-0">Stylish and efficient kitchens crafted for your daily ease.</p>
-                </div>
-                <a href="service-detail.html" class="bg-secondary arrow rounded-circle position-absolute p-0" style="top: 15px; right: 15px;">
-                  <i class="fa fa-long-arrow-right m-0 text-center " aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-            <div class="col">
-              <div class="service-box position-relative">
-                <div class="overlay rounded-4"></div>
-                <div class="services-image">
-                  <img src="image/pexels-cottonbro-4778344.jpg" alt="resitental design" class="rounded-4">
-                </div>
-                <div class="services-info position-relative p-3 position-absolute bottom-0 w-100 rounded-top-0 white">
-                  <h4 class="mb-1"><a href="service-detail.html">Furniture & Decor Styling</a></h4>
-                  <p class="mb-0">Custom-selected furnishings and décor that complete the look.</p>
-                </div>
-                <a href="service-detail.html" class="bg-secondary arrow rounded-circle position-absolute p-0" style="top: 15px; right: 15px;">
-                  <i class="fa fa-long-arrow-right m-0 text-center " aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- Services Section Ends -->
 
-  <!-- Portfolio Section Starts -->
-  <!-- <section class="portfilio">
-    <div class="container">
-      <div class="portfolio-inner">
-        <div class="portfolio-title text-center w-lg-50 w-md-75 m-auto mb-5">
-          <h6 class="secondary mb-0">Featured Projects</h6>
-          <h2 class="mb-0">Design Portfolio Highlights</h2>
-          <p class="mb-0">A glimpse into the spaces we’ve proudly designed and delivered. Each project tells a unique story — guided by vision, craft, and detail.</p>
-        </div>
-        <div class="portfolio-body mb-5">
-          <div class="portfolio-box mb-4 pb-4 border-bottom">
-            <div class="row gx-lg-5 align-items-center gy-4">
-              <div class="col-lg-7">
-                <div class="portfolio-left">
-                  <img src="image/pexels-heyho-6312072.jpg" alt="minimal Residence" class="rounded-4">
-                </div>
+          <!-- Right side: Text Info -->
+          <div class="col-lg-6 gallery-info-column d-flex flex-column justify-content-between">
+            <div class="gallery-content">
+              <div class="gallery-slide-content" style="display: block;">
+                <h3 class="gallery-title">Bodhi Sevana (බෝධි සේවනා)</h3>
+                <p class="gallery-description">
+                  A multi-layered effort focused on the preservation and continuation of the Ola Leaf manuscript tradition.
+                </p>
+                <p class="gallery-description">
+                  This includes the study and documentation of associated knowledge systems, the recording of traditional processes, and the use of carefully developed technologies to support.
+                </p>
               </div>
-              <div class="col-lg-5">
-                <div class="portfolio-right text">
-                 <h3 class="mb-2">Warm, neutral palettes designed for effortless living</h3>
-                 <p class="mb-4">A calm and refined home designed around clean lines, warm textures, and natural lighting.
-                      Every detail — from custom cabinetry to concealed storage — supports a clutter-free lifestyle.</p>
-                  <div class="portfolio-stat">
-                    <h5 class="mb-3">Quick Stats</h5>
-                    <ul class="d-flex flex-wrap gap-3 mb-3">
-                      <li class="h6 mb-0 teko"><i class="fa fa-map-pin secondary me-3" aria-hidden="true"></i>Bhaisepati, Lalitpur</li>
-                      <li class="h6 mb-0 teko"><i class="fa fa-square secondary me-3" aria-hidden="true"></i>2100 sq. ft.</li>
-                      <li class="h6 mb-0 teko"><i class="fa fa-clock-o secondary me-3" aria-hidden="true"></i>10 Weeks.</li>
-                      <li class="h6 mb-0 teko"><i class="fa fa-info-circle secondary me-3" aria-hidden="true"></i>Minimal Luxury</li>
-                    </ul>
-                    <a href="project-detail.html" class="primary text-decoration-underline">View More<i class="fa fa-long-arrow-right ms-2" aria-hidden="true"></i></a>
-                  </div>    
-                </div>
+              <div class="gallery-slide-content">
+                <h3 class="gallery-title">Heritage Conservation</h3>
+                <p class="gallery-description">
+                  Dedicated to preserving ancient cultural traditions and knowledge for future generations.
+                </p>
+                <p class="gallery-description">
+                  Through comprehensive research and digital archiving, we ensure that invaluable heritage remains accessible and protected.
+                </p>
+              </div>
+              <div class="gallery-slide-content">
+                <h3 class="gallery-title">Traditional Knowledge</h3>
+                <p class="gallery-description">
+                  Exploring the wisdom and practices of ancient civilizations.
+                </p>
+                <p class="gallery-description">
+                  Our mission is to bridge the gap between historical practices and modern preservation techniques for sustainable conservation.
+                </p>
               </div>
             </div>
-          </div>
-          <div class="portfolio-box mb-4 pb-4 border-bottom">
-            <div class="row gx-lg-5 align-items-center gy-4">
-              <div class="col-lg-5 order-2 order-lg-1">
-                <div class="portfolio-right text">
-                  <h3 class="mb-2">Smart storage and bold styling crafted for a modern lifestyle</h3>
-                  <p class="mb-4">A stylish apartment makeover featuring bold accents, layered lighting, and space-smart solutions.
-                      Perfect for modern living with a touch of glamour.</p>
-                  <div class="portfolio-stat">
-                    <h5 class="mb-3">Quick Stats</h5>
-                    <ul class="d-flex flex-wrap gap-3 mb-3">
-                      <li class="h6 mb-0 teko"><i class="fa fa-map-pin secondary me-3" aria-hidden="true"></i>Jhamsikhel, Lalitpur</li>
-                      <li class="h6 mb-0 teko"><i class="fa fa-square secondary me-3" aria-hidden="true"></i>950 sq. ft.</li>
-                      <li class="h6 mb-0 teko"><i class="fa fa-clock-o secondary me-3" aria-hidden="true"></i>6 Weeks.</li>
-                      <li class="h6 mb-0 teko"><i class="fa fa-info-circle secondary me-3" aria-hidden="true"></i>Contemporary Chic</li>
-                    </ul>
-                    <a href="project-detail.html" class="primary text-decoration-underline">View More<i class="fa fa-long-arrow-right ms-2" aria-hidden="true"></i></a>
-                  </div>    
-                </div>
-              </div>
-              <div class="col-lg-7 order-1 order-lg-2">
-                <div class="portfolio-left">
-                  <div class="row gy-4">
-                    <div class="col-md-6">
-                      <div class="portfolio-image">
-                        <img src="image/pexels-allen-boguslavsky-1344061-19674451.jpg" alt="apartment" class="rounded-4">
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="portfolio-image">
-                        <img src="image/pexels-vince-2471189.jpg" alt="" class="rounded-4">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-box mb-4 pb-4 border-bottom">
-            <div class="row gx-lg-5 align-items-center gy-4">
-              <div class="col-lg-7">
-                <div class="portfolio-left">
-                  <div class="row gy-4">
-                    <div class="col-md-6">
-                      <div class="portfolio-image">
-                        <img src="image/pexels-taryn-elliott-4112235.jpg" alt="apartment" class="rounded-4">
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="portfolio-image">
-                        <img src="image/pexels-taryn-elliott-4488194.jpg" alt="" class="rounded-4">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-5">
-                <div class="portfolio-right text">
-                  <h3 class="mb-2">A complete redesign focused on comfort and personal touches</h3>
-                  <p class="mb-4">Designed for comfort and daily living — softer materials, playful decor, and family-friendly layouts.
-                      A space where moments happen naturally.</p>
-                  <div class="portfolio-stat">
-                    <h5 class="mb-3">Quick Stats</h5>
-                    <ul class="d-flex flex-wrap gap-3 mb-3">
-                      <li class="h6 mb-0 teko"><i class="fa fa-map-pin secondary me-3" aria-hidden="true"></i>Imadol, Bhaktapur</li>
-                      <li class="h6 mb-0 teko"><i class="fa fa-square secondary me-3" aria-hidden="true"></i>1800 sq. ft.</li>
-                      <li class="h6 mb-0 teko"><i class="fa fa-clock-o secondary me-3" aria-hidden="true"></i>8 Weeks.</li>
-                      <li class="h6 mb-0 teko"><i class="fa fa-info-circle secondary me-3" aria-hidden="true"></i>Modern Cozy Home</li>
-                    </ul>
-                    <a href="project-detail.html" class="primary text-decoration-underline">View More<i class="fa fa-long-arrow-right ms-2" aria-hidden="true"></i></a>
-                  </div>    
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-box">
-            <div class="row gx-lg-5 align-items-center gy-4">
-              <div class="col-lg-5 order-2 order-lg-1">
-                <div class="portfolio-right text">
-                  <h3 class="mb-2">Brand-focused interiors that boost productivity</h3>
-                  <p class="mb-4">Brand-forward design that boosts collaboration and productivity.
-                      A sophisticated mix of textures, acoustic features, and custom work zones.</p>
-                  <div class="portfolio-stat">
-                    <h5 class="mb-3">Quick Stats</h5>
-                    <ul class="d-flex flex-wrap gap-3 mb-3">
-                      <li class="h6 mb-0 teko"><i class="fa fa-map-pin secondary me-3" aria-hidden="true"></i>Godawori, Lalitpur</li>
-                      <li class="h6 mb-0 teko"><i class="fa fa-square secondary me-3" aria-hidden="true"></i>800 sq. ft.</li>
-                      <li class="h6 mb-0 teko"><i class="fa fa-clock-o secondary me-3" aria-hidden="true"></i>6 Weeks.</li>
-                      <li class="h6 mb-0 teko"><i class="fa fa-info-circle secondary me-3" aria-hidden="true"></i>Commercial Office</li>
-                    </ul>
-                    <a href="project-detail.html" class="primary text-decoration-underline">View More<i class="fa fa-long-arrow-right ms-2" aria-hidden="true"></i></a>
-                  </div>    
-                </div>
-              </div>
-              <div class="col-lg-7 order-1 order-lg-2">
-                <div class="portfolio-left">
-                  <img src="image/pexels-tranmautritam-326501.jpg" alt="workspace" class="rounded-4">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="portfolio-bottom text-center">
-          <a href="project.html" class="btn1">Explore All Projects<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- Portfolio Section Ends -->
 
-  <!-- Process Section Starts -->
-  <!-- <section class="process pt-0">
-    <div class="container">
-      <div class="process-inner">
-        <div class="process-title mb-5 text-center text-lg-start">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="process-title-left">
-                <h6 class="secondary mb-0">How it works</h6>
-                <h2 class="mb-0">A Simple & Transparent Process</h2>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="process-title-right">
-                <p class="mb-0">From first chat to final styling — we guide you every step of the way. A seamless experience built around clarity, creativity, and precision. Your dream space, delivered through a smooth and proven process</p>
-              </div>
-            </div>
+            <!-- See More Button -->
+            <button class="gallery-see-more-btn">See More</button>
           </div>
         </div>
-        <div class="process-body">
-          <div class="row align-items-center gx-md-5 gy-5 justify-content-center">
-            <div class="col-lg-4 col-md-6 order-1">
-              <div class="process-left">
-                <div class="process-box p-4 bg-white rounded-4 position-relative mb-4">
-                  <div class="process-icon position-absolute" style="top: 20px; right: 20px;">
-                    <img src="image/search.png" alt="search icon" style="height: 40px; width: 40px;">
-                  </div>
-                  <span class="teko h2 mb-0">01.</span>
-                  <h4 class="secondary mb-3">Discover</h4>
-                  <p class="mb-0">We start by understanding your space, lifestyle, and design goals through consultation and site assessment.</p>
-                </div>
-                <div class="process-box p-4 bg-white rounded-4 position-relative">
-                  <div class="process-icon position-absolute" style="top: 20px; right: 20px;">
-                    <img src="image/vision.png" alt="search icon" style="height: 40px; width: 40px;">
-                  </div>
-                  <span class="teko h2 mb-0">02.</span>
-                  <h4 class="secondary mb-3">Design</h4>
-                  <p class="mb-0">Our team creates mood boards, material palettes, and 3D concepts to bring your great vision to life.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 order-3 order-lg-2">
-              <div class="process-image">
-                <img src="image/interior-design-of-scandinavian-open-space-2022-12-07-04-19-53-utc.jpg" alt="interior" class="rounded-4">
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 order-2 order-lg-3">
-              <div class="process-left">
-                <div class="process-box p-4 bg-white rounded-4 position-relative mb-4">
-                  <div class="process-icon position-absolute" style="top: 20px; right: 20px;">
-                    <img src="image/interior.png" alt="search icon" style="height: 40px; width: 40px;">
-                  </div>
-                  <span class="teko h2 mb-0">03.</span>
-                  <h4 class="secondary mb-3">Build</h4>
-                  <p class="mb-0">We manage every detail — from procurement to on-site execution — ensuring quality and timelines.</p>
-                </div>
-                <div class="process-box p-4 bg-white rounded-4 position-relative">
-                  <div class="process-icon position-absolute" style="top: 20px; right: 20px;">
-                    <img src="image/hand-over.png" alt="search icon" style="height: 40px; width: 40px;">
-                  </div>
-                  <span class="teko h2 mb-0">04.</span>
-                  <h4 class="secondary mb-3">Deliver</h4>
-                  <p class="mb-0">The final space is styled, refined, and revealed — ready for you to move in and enjoy. Delivered as planned.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- Process Section Ends -->
 
-  <!-- Ad Banner Section Starts -->
-  <!-- <section class="ad-banner p-0">
-    <div class="container">
-      <div class="ad-banner-inner p-md-5 p-4  rounded-5 bg-white position-relative overflow-hidden">
-        <div class="row align-items-center gy-5">
-          <div class="col-lg-5">
-            <div class="ad-banner-left text-center text-lg-start">
-              <span class="teko h6 mb-0 secondary">Redefine Your Home — 50% Off Now</span>
-              <h2 class="text-uppercase h1 primary mb-3">Redefine the Luxury of Living</h2>
-              <p class="teko h6 fw-normal">Experience bespoke interior design crafted with elegance, precision, and purpose. Bold ideas, smart planning, and beautiful results.</p>
-              <ul class="d-flex align-items-center justify-content-center justify-content-lg-start my-4">
-                <li class="me-3 pe-3 border-end border-2 border-grey"><img src="image/sale-tag.png" alt="chat" style="height: 44px; width: 44px;"></li>
-                <li class="teko">
-                  <span class="h5 primary mb-0">Sale</span>
-                  <span class="d-block h3 secondary mb-0">50% Off Now</span>
-                </li>
-              </ul>
-              <a href="consultation.html" class="btn1">Get My Discount<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-7">
-            <div class="ad-banner-right">
-              <img src="image/pexels-zvolskiy-2082087.jpg" alt="bedroom" class="rounded-4 border-5 border-white position-relative z-2">
-            </div>
-          </div>
+        <!-- Navigation Buttons Outside -->
+        <div class="gallery-nav-buttons-container">
+          <a class="gallery-nav gallery-prev" id="galleryPrevBtn" onclick="changeGallerySlide(-1)">
+            <i class="fa fa-chevron-left"></i>
+          </a>
+          <a class="gallery-nav gallery-next" id="galleryNextBtn" onclick="changeGallerySlide(1)">
+            <i class="fa fa-chevron-right"></i>
+          </a>
         </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- Ad Banner Section Ends -->
 
-  <!-- Why Us section Starts -->
-  <!-- <section class="why-us">
-    <div class="container">
-      <div class="why-us-inner">
-        <div class="row gx-lg-5 gy-5 align-items-center">
-          <div class="col-lg-5">
-            <div class="why-us-left text-center text-lg-start">
-              <h6 class="secondary mb-0">Why Choose Us</h6>
-              <h2 class="mb-3">Why Homeowners Love Working With Us</h2>
-              <p class="mb-4">We believe every home deserves thoughtful design and meticulous detail.
-                From the first sketch to final styling, our experienced team ensures your space reflects your personality.</p>
-              <div class="why-us-image position-relative">
-                <img src="image/pexels-pixabay-279648.jpg" alt="kitchen" class="rounded-4">
-                <div class="exp-box p-3 text-center rounded-3 bg-secondary position-absolute" style="bottom: 20px; right: 20px;">
-                  <span class="h1 mb-0 white teko lh-1">10+</span>
-                  <span class="d-block primary fw-bold teko h6 text-capitalize mb-0">Years of experience</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-7">
-            <div class="why-us-right">
-              <div class="row gy-4">
-                <div class="col-md-6">
-                  <div class="why-us-box p-4 border-2 border border-white rounded-3">
-                    <div class="why-us-icon mb-4">
-                      <img src="image/interior.png" alt="interior icon" style="height: 45px; width: 45px;">
-                    </div>
-                    <div class="why-us-info">
-                      <h5>Tailored Design Approach</h5>
-                      <p class="mb-0">Every space and client is unique — our process adapts to your lifestyle, budget, and taste.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="why-us-box p-4 border-2 border border-white rounded-3">
-                    <div class="why-us-icon mb-4">
-                      <img src="image/art.png" alt="interior icon" style="height: 45px; width: 45px;">
-                    </div>
-                    <div class="why-us-info">
-                      <h5>Experienced Team of Designers</h5>
-                      <p class="mb-0">Our experts bring years of design and project management experience to every project.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="why-us-box p-4 border-2 border border-white rounded-3">
-                    <div class="why-us-icon mb-4">
-                      <img src="image/badge.png" alt="interior icon" style="height: 45px; width: 45px;">
-                    </div>
-                    <div class="why-us-info">
-                      <h5>Quality Craftsmanship</h5>
-                      <p class="mb-0">We partner with skilled artisans and trusted brands to ensure premium finishes that last.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="why-us-box p-4 bg-white rounded-3">
-                    <div class="why-us-icon mb-4">
-                      <img src="image/customer-service.png" alt="interior icon" style="height: 45px; width: 45px;">
-                    </div>
-                    <div class="why-us-info">
-                      <h5>End-to-End Service</h5>
-                      <p class="mb-0">From concept to completion — we handle design, materials, execution, and styling.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="why-us-box p-4 border-2 border border-white rounded-3">
-                    <div class="why-us-icon mb-4">
-                      <img src="image/price-tag.png" alt="interior icon" style="height: 45px; width: 45px;">
-                    </div>
-                    <div class="why-us-info">
-                      <h5>Transparent Pricing</h5>
-                      <p class="mb-0">No hidden costs on the project. Every detail is planned and priced upfront with all transparancy.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="why-us-box p-4 border-2 border border-white rounded-3">
-                    <div class="why-us-icon mb-4">
-                      <img src="image/delivery-truck.png" alt="interior icon" style="height: 45px; width: 45px;">
-                    </div>
-                    <div class="why-us-info">
-                      <h5>On-Time Delivery</h5>
-                      <p class="mb-0">We respect your time — every project is executed with precision and clear communication.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <!-- Gallery Indicators (centered below) -->
+        <div class="gallery-indicators">
+          <span class="gallery-dot gallery-active" onclick="currentGallerySlide(1)"></span>
+          <span class="gallery-dot" onclick="currentGallerySlide(2)"></span>
+          <span class="gallery-dot" onclick="currentGallerySlide(3)"></span>
         </div>
       </div>
     </div>
-  </section> -->
-  <!-- Why Us section Ends -->
+  </section>
+  <!-- Gallery Image Slideshow Section Ends -->
 
   <!-- Testimonial Section Starts -->
   <section class="testimonial bg-white  rounded-5" style="background-image: none;">
@@ -722,138 +344,61 @@
   </section>
   <!-- Testimonial Section Ends -->
 
-  <!-- Blog Section Starts -->
-  <!-- <section class="blog">
-    <div class="container">
-      <div class="blog-inner">
-        <div class="blog-title text-center w-lg-50 w-md-75 m-auto mb-5">
-          <h6 class="secondary mb-0">Our Blogs</h6>
-          <h2 class="">Design Insights & Inspiration</h2>
-          <p class="mb-0">Explore our latest thoughts on interior design, trends, and creative living. From cozy corners to luxury spaces — discover what’s shaping modern interiors.</p>
-        </div>
-        <div class="blog-body mb-4">
-          <div class="row align-items-stretch gy-4">
-            <div class="col-lg-4 col-md-6 d-flex order-1">
-              <div class="blog-body-left h-100">
-                <div class="blog-box position-relative h-100">
-                  <div class="blog-image h-100">
-                    <img src="image/pexels-polina-kovaleva-5644713.jpg" alt="chair" class="rounded-4 h-100">
-                  </div>
-                  <div class="overlay rounded-4"></div>
-                  <div class="blog-info position-absolute white p-4 bottom-0">
-                    <h4 class="white mb-2"><a href="blog-detail.html">5 Small Space Design Hacks That Make a Big Impact</a></h4>
-                    <ul class="d-flex small mb-3">
-                      <li class="me-2 pe-2 border-end">February 28, 2025 </li>
-                      <li>No Comments</li>
-                    </ul>
-                    <p>Transform your apartment into a masterpiece with space-saving furniture, layered lighting, and smart color use.</p>
-                    <a href="blog-detail.html" class="text-decoration-underline">Read More<i class="fa fa-long-arrow-right ms-2" aria-hidden="true"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 order-3 order-lg-2">
-              <div class="blog-body-center">
-                <div class="row gy-4">
-                  <div class="col-lg-12 col-md-6">
-                    <div class="blog-box position-relative">
-                      <div class="blog-image">
-                        <img src="image/pexels-hassan-bouamoud-1857973307-34685993.jpg" alt="chair" class="rounded-4">
-                      </div>
-                      <div class="overlay rounded-4"></div>
-                      <div class="blog-info position-absolute white p-4 bottom-0">
-                        <h4 class="white mb-2"><a href="blog-detail.html">How to Mix Textures for a Cozy, Elegant Home</a></h4>
-                        <ul class="d-flex small">
-                          <li class="me-2 pe-2 border-end">February 27, 2025 </li>
-                          <li>No Comments</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                   <div class="col-lg-12 col-md-6">
-                    <div class="blog-box position-relative">
-                      <div class="blog-image">
-                        <img src="image/pexels-tima-miroshnichenko-6614823.jpg" alt="chair" class="rounded-4">
-                      </div>
-                      <div class="overlay rounded-4"></div>
-                      <div class="blog-info position-absolute white p-4 bottom-0">
-                        <h4 class="white mb-2"><a href="blog-detail.html">Lighting Secrets Designers Swear By</a></h4>
-                        <ul class="d-flex small">
-                          <li class="me-2 pe-2 border-end">February 26, 2025 </li>
-                          <li>No Comments</li>
-                        </ul>
-                      </div>
-                    </div>
-                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 d-flex order-2 order-lg-3">
-              <div class="blog-body-right h-100">
-                <div class="blog-box position-relative h-100">
-                  <div class="blog-image h-100">
-                    <img src="image/pexels-wendywei-2959583.jpg" alt="chair" class="rounded-4 h-100">
-                  </div>
-                  <div class="overlay rounded-4"></div>
-                  <div class="blog-info position-absolute white p-4 bottom-0">
-                    <h4 class="white mb-2"><a href="blog-detail.html">Eco-Friendly Interiors: Design That Feels Good & Does Good</a></h4>
-                    <ul class="d-flex small mb-3">
-                      <li class="me-2 pe-2 border-end">February 28, 2025 </li>
-                      <li>No Comments</li>
-                    </ul>
-                    <p>Sustainable design doesn’t mean compromise — here’s how to style with environmentally conscious choices.</p>
-                    <a href="blog-detail.html" class="text-decoration-underline">Read More<i class="fa fa-long-arrow-right ms-2" aria-hidden="true"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="blog-bottom text-center">
-          <a href="blog-list.html" class="btn1">View all Blogs<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- Blog Section Ends -->
+  
 
   <!-- Footer Section Starts -->
-  <footer class="pt-6 bg-primary pb-0 rounded-top-5" style="background-image: none;">
+  <footer class="pt-5 pb-5 bg-primary" style="background-image: none;">
     <div class="container">
       <div class="footer-inner white">
-        <div class="footer-top w-lg-75 text-center m-auto mb-7">
-          <h1 class="white mb-3 w-xxl-50 text-center m-auto"></h1>
-          <p class="mb-3" style="color: #aea46f;">As we are a non-profit, your contributions help us maintain this space</p>
-          <a href="" class="btn1">Donate Link<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-        </div>
-        <div class="footer-middle mb-4 pb-4 border-bottom border-white border-opacity-50">
-          <div class="row align-items-center gy-4 justify-content-center">
-            <div class="col-lg-4 order-2 order-lg-1">
-              <div class="footer-socials">
-                <ul class="d-flex gap-2 justify-content-center justify-content-lg-start">
-                  <li><a href="#"><i class="fa fa-facebook bg-sagegreen bg-opacity-25 rounded-circle text-center" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-youtube bg-sagegreen bg-opacity-25 rounded-circle text-center" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-instagram bg-sagegreen bg-opacity-25 rounded-circle text-center" aria-hidden="true"></i></a></li>
-                </ul>
-              </div>
-            </div>  
-            <div class="col-lg-4 col-md-8 order-1 order-lg-2">
-              <div class="footer-logo text-center">
-                <a href=""><img src="image/logobg.png" alt="logo" class="w-50 m-auto"></a>
+        <!-- Footer Main Content -->
+        <div class="footer-top mb-5 pb-5 border-bottom" style="border-color: #c4b8a8;">
+          <div class="row align-items-start gy-5">
+            <!-- Left: Logo -->
+            <div class="col-lg-2 col-md-3 text-center">
+              <div class="footer-logo">
+                <a href="index.html"><img src="image/logobg.png" alt="Bodhi Tree Logo" style="width: 100px;"></a>
               </div>
             </div>
-            <div class="col-lg-4 order-3">
-              <ul class="d-flex gap-3 justify-content-center justify-content-lg-end flex-wrap" style="color: #aea46f;">
-                <li><a href="" style="color: #aea46f;">Home</a></li>
-                <li><a href="" style="color: #aea46f;">About the Bodhi Tree</a></li>
-                <!-- <li><a href="" style="color: #aea46f;">Governance</a></li>
-                <li><a href="" style="color: #aea46f;">Publications</a></li> -->
-              </ul>
+
+            <!-- Center: Navigation Links -->
+            <div class="col-lg-3 col-md-4" style="margin-left: 200px;">
+              <div class="footer-nav">
+                <div class="row">
+                  <div class="col-6">
+                    <ul class="list-unstyled">
+                      <li class="mb-2"><a href="index.html" style="color: #a89968; text-decoration: none;">Home</a></li>
+                      <li class="mb-2"><a href="about.html" style="color: #a89968; text-decoration: none;">About</a></li>
+                      <li class="mb-2"><a href="projects.html" style="color: #a89968; text-decoration: none;">Projects</a></li>
+                      <li class="mb-2"><a href="governance.html" style="color: #a89968; text-decoration: none;">Governance</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6">
+                    <ul class="list-unstyled">
+                      <li class="mb-2"><a href="publications.html" style="color: #a89968; text-decoration: none;">Publications</a></li>
+                      <li class="mb-2"><a href="traditions.html" style="color: #a89968; text-decoration: none;">Traditions</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Tagline -->
+            <div class="col-lg-3 col-md-4 d-flex align-items-center" style="margin-left: 100px;">
+              <p style="color: #a89968; font-weight: 500; font-size: 16px; line-height: 1.6;">
+                As we are a non-profit,<br>your contributions helps us<br>alot to maintain this space
+              </p>
             </div>
           </div>
         </div>
-        <div class="footer-bottom text-center pb-4">
-          <p class="mb-0" style="color: #aea46f;">© 2026 Under the Bodhi Tree. All rights reserved</p>
+
+        <!-- Footer Bottom Links -->
+        <div class="footer-bottom text-center">
+          <ul class="list-unstyled d-flex gap-3 justify-content-center flex-wrap">
+            <li><a href="#" style="color: #a89968; text-decoration: none; font-size: 12px;">FAQ</a></li>
+            <li><a href="#" style="color: #a89968; text-decoration: none; font-size: 12px;">LEGAL NOTES</a></li>
+            <li><a href="#" style="color: #a89968; text-decoration: none; font-size: 12px;">COOKIE POLICY</a></li>
+            <li><a href="#" style="color: #a89968; text-decoration: none; font-size: 12px;">PRIVACY POLICY</a></li>
+          </ul>
         </div>
       </div>
     </div>
